@@ -1,0 +1,215 @@
+/*work sans font form google font */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/*shared style*/
+* {
+       font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+       border-radius: 8px;
+       color: #000;
+       background-color: aqua;
+       padding: 20px 25px;
+       font-size: 1.25re;
+       color: rgb(7, 7, 109);
+       cursor: pointer;
+       border: 0;
+
+}
+
+.section-title {
+       font-size: 2.8rem;
+       font-weight: 700p;
+       color: rgb(10, 10, 10);
+}
+
+
+/*Header style */
+header {
+       background-color: rgb(189, 238, 238);
+       padding: 50px 240px;
+
+}
+
+nav {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+}
+
+.nav-title {
+       font-size: 2.8rem;
+       font-weight: 700p;
+       color: antiquewhite;
+}
+
+nav>ul {
+       display: flex;
+}
+
+nav li {
+       list-style: none;
+       margin-right: 30px;
+       font-weight: 500;
+       font-size: 1rem;
+}
+
+nav a {
+       text-decoration: none;
+       color: black;
+}
+
+/*Banner section*/
+.banner-content {
+       max-width: 800px;
+       text-align: center;
+       margin: 0 auto;
+}
+
+.banner-title {
+       font-size: 4rem;
+       font-weight: 700px;
+       color: rgb(26, 20, 20);
+}
+
+.banner-description {
+       color: rgb(17, 16, 16);
+}
+
+
+
+.banner img {
+       margin-top: 20px;
+       width: 100%;
+}
+
+/*facts section*/
+.facts-card-container {
+       display: flex;
+       justify-content: space-around;
+}
+
+.facts-card-container .card {
+       border: solid rgb(142, 227, 248);
+       border-radius: 8px;
+       text-align: center;
+       font-size: 2.8rem;
+       padding: 30px;
+}
+
+.facts-card-container .card-title {
+       font-weight: 600;
+       font-size: 1.25rem;
+       margin-top: 5px;
+}
+
+.facts-card-container .card-stats {
+       font-size: 2.8rem;
+       color: rgb(0, 81, 255);
+       margin-top: 10px;
+       margin-bottom: 10px;
+}
+
+
+
+/*Team section start*/
+
+
+main {
+       max-width: 1300px;
+       margin: 40px auto;
+       /* background-color: aqua; */
+}
+
+/*teams style*/
+
+.teams-contanier {
+       display: flex;
+       align-items: center;
+}
+
+.teams-ima-container {
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       gap: 24px;
+}
+
+.team-content {
+       padding-right: 70px;
+       padding-left: 70px;
+}
+
+.temas-title {
+       font-size: 45px;
+
+}
+
+.temas-title .quick-list {
+       color: rgb(0, 81, 255);
+
+       font-weight: 500;
+}
+
+.temas-title .teams-featurs {
+       color: rgb(6, 190, 236);
+       font-weight: 700px;
+}
+
+/*features*/
+.features {
+       margin-top: 40px;
+       display: flex;
+       gap: 100px;
+}
+
+
+
+/*sopnsor*/
+.sponsor {
+       text-align: center;
+}
+
+.sopnsor-img-container {
+       display: flex;
+       justify-content: space-evenly;
+       margin-top: 50px;
+}
+
+.ten-years-badge {
+       border-radius: 10px;
+       background-color: aqua;
+       width: 342px;
+       color: blueviolet;
+}
+
+.ten-years-badge .h3 {
+       font-size: 4rem;
+}
+
+
+
+/*Responsive style*/
+/*mobile Device*/
+@media screen and (max-width:576px) {
+       header {
+              padding: 20px;
+       }
+
+       nav {
+              flex-direction: column;
+       }
+
+}
+
+/*Tablet Device*/
+@media screen and(min-width:576px)and(max-width:960px) {
+       nav {
+              padding: 50px;
+              flex-direction: column;
+       }
+
+}
